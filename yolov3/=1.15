@@ -1,0 +1,27 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/jwra/anaconda3/envs/yolo
+
+  added / updated specs:
+    - tensorboard
+
+
+The following NEW packages will be INSTALLED:
+
+  coverage           pkgs/main/linux-64::coverage-5.5-py36h27cfd23_2
+  cython             pkgs/main/linux-64::cython-0.29.22-py36h2531618_0
+  grpcio             pkgs/main/linux-64::grpcio-1.36.1-py36h2157cd5_1
+  tensorboard-plugi~ pkgs/main/noarch::tensorboard-plugin-wit-1.6.0-py_0
+
+The following packages will be UPDATED:
+
+  tensorboard        pkgs/main/linux-64::tensorboard-1.10.~ --> pkgs/main/noarch::tensorboard-2.4.0-pyhc547734_0
+
+
+Proceed ([y]/n)? 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
