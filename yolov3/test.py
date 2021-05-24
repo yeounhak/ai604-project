@@ -21,9 +21,9 @@ from torchvision import transforms
 from torch.autograd import Variable
 import torch.optim as optim
 
-device = torch.device("cuda:6" if torch.cuda.is_available() else "cpu")
+#device = torch.device("cuda:6" if torch.cuda.is_available() else "cpu")
 
-def evaluate(model, path, iou_thres, conf_thres, nms_thres, img_size, batch_size):
+def evaluate(model, path, iou_thres, conf_thres, nms_thres, img_size, batch_size, device):
     model.eval()
 
     # Get dataloader
